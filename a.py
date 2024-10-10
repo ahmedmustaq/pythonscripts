@@ -1,7 +1,7 @@
 import time
 
 # Print "Hello, World!"
-printyeoeo("Hello, World!")
+print("Hello, World!")
 
 # Wait for 10 seconds
 time.sleep(10)
