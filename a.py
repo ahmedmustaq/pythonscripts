@@ -4,7 +4,7 @@ import time
 print("Hello, World!")
 
 # Wait for 10 seconds
-time.sleep(10)
+time.sleep(30)
 
 # Print the second message
 print("And I waited for 10 secs.")
