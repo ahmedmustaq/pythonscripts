@@ -2,9 +2,9 @@ import argparse
 
 # Set up argument parser
 parser = argparse.ArgumentParser(description="Process CUSTOMER, IMAGE, and EMAIL details.")
-parser.add_argument("CUSTOMER", type=str, required=True, help="Customer name")
-parser.add_argument("IMAGE", type=str, required=True, help="Image name")
-parser.add_argument("EMAIL", type=str, required=True, help="Email address")
+parser.add_argument("--CUSTOMER", type=str, required=True, help="Customer name")
+parser.add_argument("--IMAGE", type=str, required=True, help="Image name")
+parser.add_argument("--EMAIL", type=str, required=True, help="Email address")
 
 # Parse the arguments
 args = parser.parse_args()
