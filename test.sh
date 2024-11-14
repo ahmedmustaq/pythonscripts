@@ -1,1 +1,1 @@
-export EMAIL_TO=iqbaldaddy@gmail.com
+echo [EMAIL_TO=iqbaldaddy@gmail.com]
